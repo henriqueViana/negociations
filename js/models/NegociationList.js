@@ -12,3 +12,5 @@ class NegociationList{
 		return this._negociations;
 	}
 }
+
+module.exports = NegociationList;
