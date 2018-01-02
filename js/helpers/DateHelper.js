@@ -18,3 +18,5 @@ class DateHelper{
 		return (month < 10) ? '0' + month : month;  
 	}
 }
+
+module.exports = DateHelper;

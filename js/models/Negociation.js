@@ -24,7 +24,6 @@ class Negociation{
 		return new Date(this._date.getTime());
 	}
 
-
 	get quantity(){
 		return this._quantity;
 	}
@@ -38,3 +37,5 @@ class Negociation{
 	}
 
 }
+
+module.exports = Negociation;

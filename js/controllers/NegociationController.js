@@ -15,7 +15,5 @@ class NegociationController{
 		let negociation = new Negociation(DateHelper.convertStringToDate(this._date.value) , this._quantity.value, this._price.value);
 		
 		this._negociationList.add(negociation);
-
-		console.log(this._negociationList.list);
 	}
 }
